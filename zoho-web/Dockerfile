@@ -1,7 +1,7 @@
 # Step 1: Build Spring Boot app
 FROM maven:3.9.6-eclipse-temurin-21 AS build
 WORKDIR /app
-COPY Zoho-Web/zoho-web/ .   # copy only the backend folder
+COPY . .
 RUN mvn clean package -DskipTests
 
 # Step 2: Run Spring Boot jar

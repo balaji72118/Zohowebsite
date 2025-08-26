@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: springboot-backend
+    env: java
+    plan: free
+    rootDir: zoho-web
+    buildCommand: ./mvnw clean install -DskipTests
+    startCommand: java -jar target/*.jar

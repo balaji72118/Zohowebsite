@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Footer from '../components/Footer';
 import '../pages/view/Auth.css';
+import { useNavigate } from 'react-router-dom';
 import topimageIcon from '../assets/topimage.png';
 import googleIcon from '../assets/google.png';
 import linkedinIcon from '../assets/linkedin.png';
@@ -13,6 +14,7 @@ import illustration1 from '../assets/illustration1.png';
 import illustration2 from '../assets/illustration2.png';
 
 const SignIn = () => {
+  const navigate = useNavigate();
   const illustrations = [illustration1, illustration2];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [step, setStep] = useState(1);
@@ -38,6 +40,7 @@ const SignIn = () => {
       setStep(2);
     }
   };
+  
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -53,6 +56,7 @@ const SignIn = () => {
       if (response.data) {
         setSuccess('Login successful!');
         // Redirect or store token here
+        navigate('/crm');
       } else {
         setError('Invalid credentials');
       }

@@ -19,7 +19,7 @@ function Header() {
       </div>
       <p className="header-right">
         Have a Zoho Account?{' '}
-        <a href="/login" className="header-link">
+        <a href="/signin" className="header-link">
         SIGN IN
         </a>
        </p>

@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17774440.css",
+    "main.js": "/static/js/main.b07170d6.js",
+    "static/media/bodyimage.png": "/static/media/bodyimage.cdd8286325599799e611.png",
+    "static/media/dashboard.png": "/static/media/dashboard.0bff1b112c384c91a93f.png",
+    "static/media/footer.png": "/static/media/footer.f4d939af7f6581497440.png",
+    "static/media/centerpage-image.png": "/static/media/centerpage-image.4a592095dee2b85052fe.png",
+    "static/media/illustration2.png": "/static/media/illustration2.717a47bcf705ed75d225.png",
+    "static/media/icon2.png": "/static/media/icon2.9ab134e03022f7412f5b.png",
+    "static/media/soc.png": "/static/media/soc.04f465e77d140b6cd901.png",
+    "static/media/illustration1.png": "/static/media/illustration1.2b7363ae0f48d204263a.png",
+    "static/media/gppr.png": "/static/media/gppr.ebd99499e57052ef0f40.png",
+    "static/media/icon1.png": "/static/media/icon1.00a9ab6eec76bdd80074.png",
+    "static/media/icon3.png": "/static/media/icon3.172b070859637cc865cd.png",
+    "static/media/bluestar.png": "/static/media/bluestar.abfcf3b84eca5979b750.png",
+    "static/media/marathon.png": "/static/media/marathon.9d631f86bcbbf8ec6369.png",
+    "static/media/hipaa.png": "/static/media/hipaa.e34592d266a62cb05667.png",
+    "static/media/tafe.png": "/static/media/tafe.0085ba1e659393c524da.png",
+    "static/media/iifl.png": "/static/media/iifl.365e78c7396e1d3a95c1.png",
+    "static/media/playstore.png": "/static/media/playstore.07c715e88575aa3edfd3.png",
+    "static/media/zohocrm.png": "/static/media/zohocrm.5b2002bfbdaa2054cadd.png",
+    "static/media/appstore.png": "/static/media/appstore.c52cca69757f44437e2a.png",
+    "static/media/hotstar.png": "/static/media/hotstar.6994bca762fa5e5a2554.png",
+    "index.html": "/index.html",
+    "main.17774440.css.map": "/static/css/main.17774440.css.map",
+    "main.b07170d6.js.map": "/static/js/main.b07170d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17774440.css",
+    "static/js/main.b07170d6.js"
+  ]
+}

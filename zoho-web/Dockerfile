@@ -1,12 +1,11 @@
-# Step 1: Build the application with Maven
-FROM maven:3.9.4-eclipse-temurin-21 AS build
+# Step 1: Build Spring Boot app
+FROM maven:3.9.6-eclipse-temurin-21 AS build
 WORKDIR /app
-COPY . .
+COPY Zoho-Web/zoho-web/ .   # 👈 copy only the backend folder
 RUN mvn clean package -DskipTests
 
-# Step 2: Run the JAR with Java 21
+# Step 2: Run Spring Boot jar
 FROM eclipse-temurin:21-jdk
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
-EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
